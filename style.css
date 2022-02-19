@@ -1,5 +1,6 @@
 body{
     font-family: 'Poppins', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
    
 }
 
@@ -37,6 +38,15 @@ h1{
     font-weight: 700;
     border-radius: 5px;
 }
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(orange,tomato);
+    padding: 10px 40px;
+    color: whitesmoke;
+    font-weight: 700;
+    border-radius: 5px;
+}
+
 
 #intro-part{
     border-left: 4px solid;
@@ -44,3 +54,137 @@ h1{
     border-image-slice: 1;
     padding-left: 10px;
 }
+
+.middle-part h1 {
+    text-align: center;
+    font-size: 45px;
+}
+
+.middle-banner {
+    display: flex;
+    margin-bottom: 80px;
+
+}
+
+.mission-images {
+    width: 50%;
+}
+
+#mission{
+    margin: 35px 65px;
+    background-color:burlywood ;
+    background-size: 100px 150px;
+    padding: 20px 40px;
+    border-radius: 30px;
+}
+
+#vission {
+    margin: 30px 60px;
+    background-color: rosybrown ;
+    background-size: 100px 150px;
+    padding: 20px 40px;
+    border-radius: 30px;
+}
+
+
+#goals{
+    margin: 30px 60px;
+    background-color: goldenrod ;
+    background-size: 100px 150px;
+    padding: 20px 40px;
+    border-radius: 30px;
+}
+
+.dev-banner{
+    display: flex;
+    padding-left: 50px;
+    margin-bottom: 80px;
+}
+
+.half-width1{
+   width: 50%;
+   margin-right: 150px; 
+}
+
+.half-width1 img{
+    padding-right: 100px;
+    width: 70%;
+    margin-left: 150px;
+}
+
+
+.community-banner {
+     display: flex;
+     padding-left: 50px;
+     margin-bottom: 80px;
+}
+
+
+
+.half-width2{
+    width: 50%;
+    margin-left: 70px;
+}
+
+#contact {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    background-color: lightgray;
+    color: darkolivegreen;
+    padding: 25px;
+    text-align: center;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    align-items: center;
+    margin: 20px 0px;
+}
+
+.input{
+   padding: 25px;
+   margin: 15px;
+   width: 35%;
+   border: none;
+   outline: none;
+}
+
+#messege{
+    width: 25%;
+    padding: 15px;
+    border: none;
+    outline: none;
+    background-color: cornflowerblue;
+}
+
+#SEND {
+    width: 25%;
+    padding: 15px;
+    border: none;
+    margin: 0px;
+    outline: none; 
+    background-color: burlywood;
+}
+
+#CV{
+    width: 25%;
+    padding: 15px;
+    border: none;
+    margin: 0px;
+    outline: none;
+    background-color: cadetblue; 
+}
+
+footer{
+    text-align: center;
+    background-color:black;
+    color: grey;
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+
+
+
